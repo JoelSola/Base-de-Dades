@@ -7,6 +7,10 @@
   
 - En segon lloc vaig donar-li on posa **"Try It"** i després vaig seguir el que em va dir.
 
+- Després iniciarem la maquina i posarem el següent:
+
+
+
 
 ## Instal·lacio del Percona a la maquina
 Primer pas:

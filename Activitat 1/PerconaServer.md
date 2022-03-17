@@ -3,7 +3,7 @@
 ## Registre i subscripció del compte
 
 - Previament hi haurà que suscribir la nostre compte al redhat, el que vaig fer jo:
-  Vaig accedir a aquesta ["pagina"](https://www.redhat.com/en/technologies/linux-platforms/Haenterprise-linux?extIdCarryOver=true&sc_cid=701f2000001OH6fAAG)
+  Vaig accedir a aquesta ["pagina"](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux?extIdCarryOver=true&sc_cid=701f2000001OH6fAAG)
   
 - En segon lloc vaig donar-li on posa **"Try It"** i després vaig seguir el que em va dir.
 

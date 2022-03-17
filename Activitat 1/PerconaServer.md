@@ -15,9 +15,15 @@ Per arrancar Percons-Server:
 
 ![Iniciar Percona](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Iniciar%20Percona.png)
 
-Per verificar status: (Poner captura)
+Per verificar status:
+
+![Status](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Status.png)
+
+
 
 Per apagar servei: (Poner captura)
+
+![Parar Percona](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/parar%20percona.png)
 
 
 3

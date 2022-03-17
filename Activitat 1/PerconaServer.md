@@ -1,3 +1,26 @@
+# Instal·lacio:
+
+## Registre i subscripció del compte
+
+- Previament hi haurà que suscribir la nostre compte al redhat, el que vaig fer jo:
+  Vaig accedir a aquesta ["pagina"](https://www.redhat.com/en/technologies/linux-platforms/Haenterprise-linux?extIdCarryOver=true&sc_cid=701f2000001OH6fAAG)
+  
+- En segon lloc vaig donar-li on posa **"Try It"** i després vaig seguir el que em va dir.
+
+
+## Instal·lacio del Percona a la maquina
+Primer pas:
+Utilitzarem la següent comanda per instalar el Percona repository:
+![Instalar Percona repository](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Iniciar%20Percona.png)
+
+
+
+
+
+
+
+
+
 ### 1
 
 Un cop realitzada la instal·lació realitza una securització de la mateixa. Quin programa realitza

@@ -11,7 +11,8 @@ sigui patata.
 Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades
 de Percona Server en el sistema operatiu?
 
-Per arrancar Percons-Server: (Poner captura)
+Per arrancar Percons-Server:
+![Iniciar Percona](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Iniciar%20Percona.png)
 
 Per verificar status: (Poner captura)
 

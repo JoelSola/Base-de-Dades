@@ -44,11 +44,11 @@ Una vegada posada la contrasenya ens demanarà posar una de nova, es clar amb el
 
 ![Securitzacio3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%203.png)
 
-Quan la posem ja podrem cambiar els requisits minims de contrasenya en MySQL:
+Quan la posem ja podrem entrar al mySQL amb la contrasenya creada per nosaltres:
+
+![Securitzacio3.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%203.5.png)
 
 ![Securitzacio4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Securitzacio%204.png)
-
-![Securitzacio5](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%205.png)
 
 Hi una vegada fet aquests passos ja podrem posar una contraseña menys segura com patata:
 

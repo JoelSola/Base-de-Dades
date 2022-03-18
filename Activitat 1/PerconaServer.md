@@ -8,6 +8,11 @@
 - En segon lloc vaig donar-li on posa **"Try It"** i després vaig seguir el que em va dir.
 
 - Després iniciarem la maquina i posarem el següent:
+**subscription-manager register** (Llavors ens demanarà la nostre compte de RedHat)
+**subscription-manager refresh** (Per actualizar les dades)
+**subscription-manager attach --auto** (per verificar que estem actius en la suscripció)
+
+
 
 
 

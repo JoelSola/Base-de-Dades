@@ -28,9 +28,9 @@ Utilitzarem la següent comanda per instalar el Percona repository:
 
 ### 1
 
-Un cop realitzada la instal·lació realitza una securització de la mateixa. Quin programa realitza
-aquesta tasca? Realitza una securització de la instal·lació indicant que la contrasenya de root
-sigui patata.
+#### Un cop realitzada la instal·lació realitza una securització de la mateixa. Quin programa realitza
+#### aquesta tasca? Realitza una securització de la instal·lació indicant que la contrasenya de root
+#### sigui patata.
 
 Primer de tot utilitzarem aquesta comanda per crear una contraseña:
 

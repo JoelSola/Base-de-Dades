@@ -52,9 +52,21 @@ Posant la segúent comanda podrem veure quins son els requisits minims per defec
 
 ![Securitzacio4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Securitzacio%204.png)
 
-Hi una vegada fet aquests passos ja podrem posar una contraseña menys segura com patata:
+Llavors ara toca cambiar els requisits, amb la segúent comanda cambiarem el nivell de seguretat de la contrasenya:
+
+![Securitzacio5](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%205.png)
+
+Amb la segúent comanda cambiarem els digits necessaris per a que validi:
 
 ![Securitzacio6](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%206.png)
+
+Com podem veure ara respecte l'anterior taula han cambiat dos apartats:
+
+![Securitzacio7](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%207.png)
+
+Per ultim podrem cambiar la contrasenya a **patata**:
+
+![Securitzacio8](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%208.png)
 
 
 [PaginaAjuda](https://tecadmin.net/change-mysql-password-policy-level/)
@@ -86,16 +98,21 @@ Per apagar servei: (Poner captura)
 ![Parar Percona](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/parar%20percona.png)
 
 
+[PaginaAjuda](https://www.percona.com/doc/percona-server/8.0/installation/yum_repo.html)
+
+
 
 ### 3
 
 A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?
 
-
+El nom que rep el fitxer de configuracio del SGBD Percona Server és **my.cnf** i es troba en el directori **/etc/my.cnf**
 
 ### 4
 
 A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?
+
+Els fitxers de dades (per defecte) es troben en el directori **/var/lib/mysql/**
 
 
 
@@ -117,6 +134,17 @@ El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos cald
 canviar aquest port a 33306 per exemple? Important: No realitzis els canvis. Només indica els
 passos que faries.
 
+Primer de tot el que tindrem que fer serà parar el MySQL:
+
+![Port1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/port%201.png)
+
+Desprès ens anirem al següent fitxer:
+
+![Port2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/port%203.png)
+
+Ens portarà al següent fitxer on abaix del tot tindrem que posar port=33306 en el cas que no estigui el port=3306 com ha sigut el meu cas, en el cas que si aparegui posat el port=3306 només hi haurà que cambiar-lo
+
+![Port3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/port%202.png)
 
 
 ### 7

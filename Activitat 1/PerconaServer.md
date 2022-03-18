@@ -28,9 +28,9 @@ Utilitzarem la següent comanda per instalar el Percona repository:
 
 ### 1
 
-#### Un cop realitzada la instal·lació realitza una securització de la mateixa. Quin programa realitza
-#### aquesta tasca? Realitza una securització de la instal·lació indicant que la contrasenya de root
-#### sigui patata.
+**Un cop realitzada la instal·lació realitza una securització de la mateixa. Quin programa realitza
+aquesta tasca? Realitza una securització de la instal·lació indicant que la contrasenya de root
+sigui patata.**
 
 Primer de tot utilitzarem aquesta comanda per crear una contraseña:
 
@@ -80,8 +80,8 @@ Per ultim podrem cambiar la contrasenya a **patata**:
 
 ### 2
 
-Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades
-de Percona Server en el sistema operatiu?
+**Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades
+de Percona Server en el sistema operatiu?**
 
 Per arrancar Percons-Server:
 
@@ -104,23 +104,23 @@ Per apagar servei: (Poner captura)
 
 ### 3
 
-A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?
+**A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?**
 
-El nom que rep el fitxer de configuracio del SGBD Percona Server és **my.cnf** i es troba en el directori **/etc/my.cnf**
+El nom que rep el fitxer de configuracio del SGBD Percona Server és **"my.cnf"** i es troba en el directori **"/etc/my.cnf"**
 
 ### 4
 
-A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?
+**A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?**
 
-Els fitxers de dades (per defecte) es troben en el directori **/var/lib/mysql/**
+Els fitxers de dades (per defecte) es troben en el directori **"/var/lib/mysql/"**
 
 
 
 ### 5
 
-Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest
+**Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest
 usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al
-client mysql?
+client mysql?**
 
 - Per crear un usuari en el sistema operatiu:
 
@@ -130,9 +130,9 @@ client mysql?
 
 ### 6 
 
-El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per
+**El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per
 canviar aquest port a 33306 per exemple? Important: No realitzis els canvis. Només indica els
-passos que faries.
+passos que faries.**
 
 Primer de tot el que tindrem que fer serà parar el MySQL:
 
@@ -149,7 +149,7 @@ Ens portarà al següent fitxer on abaix del tot tindrem que posar port=33306 en
 
 ### 7
 
-Ensenya al professor que us podeu connectar al SGBD.
+**Ensenya al professor que us podeu connectar al SGBD.**
 
 
 

@@ -20,7 +20,7 @@ U
 
 - Un cop dintre només haurem de modificar el **"127.0.0.1"** per **"0.0.0.0"**
 
-![R7](JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/redis7.png)
+![R7](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/redis7.png)
 
 - Per a que els canvis anteriors siguin efectius el que haurem de fer serà posar la següent comanda
 

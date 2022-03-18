@@ -39,6 +39,9 @@ En aquest punt ja podriem connectar-nos amb el servidor
 
 ![R12](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/redis12.png)
 
-![R13]()
+# Preguntes
 
-![R14]()
+**Quin tipus de SGBD és Redis?
+
+- Redis es un tipus de SGBD NoSQL
+

@@ -36,10 +36,15 @@ Primer de tot utilitzarem aquesta comanda per crear una contraseña:
 
 ![Securitzacio1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Securitzacio%201.png)
 
+Despres posarem la segùent comanda i ens demanara la contrasenya que ens a donat anteriorment:
 
 ![Securitzacio2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%202.png)
 
+Una vegada posada la contrasenya ens demanarà posar una de nova, es clar amb els requisits per defecte de mysql:
+
 ![Securitzacio3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%203.png)
+
+Quan la posem ja podrem cambiar els requisits minims de contrasenya en MySQL:
 
 ![Securitzacio4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Securitzacio%204.png)
 

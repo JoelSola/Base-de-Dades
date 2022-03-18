@@ -48,6 +48,8 @@ Quan la posem ja podrem entrar al mySQL amb la contrasenya creada per nosaltres:
 
 ![Securitzacio3.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%203.5.png)
 
+Posant la segúent comanda podrem veure quins son els requisits minims per defecte de MySQL:
+
 ![Securitzacio4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Securitzacio%204.png)
 
 Hi una vegada fet aquests passos ja podrem posar una contraseña menys segura com patata:

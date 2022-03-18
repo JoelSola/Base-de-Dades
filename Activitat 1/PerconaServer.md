@@ -55,6 +55,9 @@ Hi una vegada fet aquests passos ja podrem posar una contraseña menys segura co
 ![Securitzacio6](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%206.png)
 
 
+[PaginaAjuda](https://tecadmin.net/change-mysql-password-policy-level/)
+
+
 
 
 

@@ -18,11 +18,19 @@
 
 
 ## Instal·lacio del Percona a la maquina
-Primer pas:
-Utilitzarem la següent comanda per instalar el Percona repository:
 
-![Instalar Percona repository](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Iniciar%20Percona.png)
+- Utilitzarem la següent comanda per instalar el Percona repository:
 
+![Instalar Percona repository](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/repository%20install.png)
+
+
+- Una vegada instalat el repository ho activarem
+
+![2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/sudo%20percona-release%20setup%20ps80.png)
+
+- Per ultim instalarem els paquets
+
+![3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/sudo%20yum%20install%20percona-server-server.png)
 
 
 

@@ -1,5 +1,4 @@
 # Instal·lació                                                                                                 
-                                                                                                                      ![MySQL](https://ca.wikipedia.org/wiki/MySQL#/media/Fitxer:MySQL.svg)
 
 - En primer lloc, anem a la web i descarreguem el MySQL mitjançant la següent comanda:
 

@@ -15,6 +15,7 @@
 ## Instal·lacio del Percona a la maquina
 Primer pas:
 Utilitzarem la següent comanda per instalar el Percona repository:
+
 ![Instalar Percona repository](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Iniciar%20Percona.png)
 
 
@@ -30,6 +31,27 @@ Utilitzarem la següent comanda per instalar el Percona repository:
 Un cop realitzada la instal·lació realitza una securització de la mateixa. Quin programa realitza
 aquesta tasca? Realitza una securització de la instal·lació indicant que la contrasenya de root
 sigui patata.
+
+Primer de tot utilitzarem aquesta comanda per crear una contraseña:
+
+![Securitzacio1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Securitzacio%201.png)
+
+
+![Securitzacio2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%202.png)
+
+![Securitzacio3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%203.png)
+
+![Securitzacio4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Securitzacio%204.png)
+
+![Securitzacio5](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%205.png)
+
+Hi una vegada fet aquests passos ja podrem posar una contraseña menys segura com patata:
+
+
+
+
+
+
 
 
 

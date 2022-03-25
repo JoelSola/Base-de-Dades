@@ -26,7 +26,7 @@ Només he pogut fer captura d'aixo perque no podia pujar amunt
 
 **A on es troben físicament els fitxers de dades?**
 
-- Els fitxers de dades es troben en el directori **"/var/lib/mysql/"
+- Els fitxers de dades es troben en el directori **"/var/lib/mysql/"**
 
 
 **A on es troba el fitxer de configuració? Quin és el seu contingut?

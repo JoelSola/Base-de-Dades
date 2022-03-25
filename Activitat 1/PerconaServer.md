@@ -146,7 +146,7 @@ client mysql?**
 
 ![5.3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/5.3.png)
 
-- Per poder comprovar que s'han fet els canvis correctament posarem la següent comanda i ens haurà de sortir l'usuari **'asix'
+- Per poder comprovar que s'han fet els canvis correctament posarem la següent comanda i ens haurà de sortir l'usuari **'asix'**
 
 ![5.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/5.4.png)
 

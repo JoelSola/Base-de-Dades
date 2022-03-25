@@ -22,15 +22,13 @@ U
 
 ![R7](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/redis7.png)
 
--Després tornarem al mateix fitxer anterior i una mica més abaix d'on hem trobat el **bind 127.0.0.1** veurem un altre linia on posa **protected-mode yes**
+- Després tornarem al mateix fitxer anterior i una mica més abaix d'on hem trobat el **bind 127.0.0.1** veurem un altre linia on posa **protected-mode yes**
 
 ![RO1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/redisO2.png)
 
--Aquesta linia la editarem i en lloc de **yes** posarem **no**
+- Aquesta linia la editarem i en lloc de **yes** posarem **no**
 
 ![RO2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Redis03.png)
-
-
 
 - Haurem de reiniciar el redis
 

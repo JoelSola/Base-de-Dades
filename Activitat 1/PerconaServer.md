@@ -82,14 +82,6 @@ Per ultim podrem cambiar la contrasenya a **patata**:
 ![Securitzacio8](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/securitzacio%208.png)
 
 
-[PaginaAjuda](https://tecadmin.net/change-mysql-password-policy-level/)
-
-
-
-
-
-
-
 
 ### 2
 
@@ -194,6 +186,15 @@ Ens portarà al següent fitxer on abaix del tot tindrem que posar port=33306 en
 
 
 
+## Webgrafia
+
+Exercici 1
+
+[Pagina1](https://tecadmin.net/change-mysql-password-policy-level/)
+
+Exercici 5
+
+[Pagina2](https://tecadmin.net/mysql-commands-without-password-prompt/)
 
 
 

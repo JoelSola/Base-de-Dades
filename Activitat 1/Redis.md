@@ -22,7 +22,7 @@ U
 
 ![R7](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/redis7.png)
 
-- Per a que els canvis anteriors siguin efectius el que haurem de fer serà posar la següent comanda
+- Haurem de reiniciar el redis
 
 ![R8](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/redis8.png)
 

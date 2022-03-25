@@ -45,3 +45,9 @@ En aquest punt ja podriem connectar-nos amb el servidor
 
 - Redis es un tipus de SGBD NoSQL
 
+
+## Webgrafia
+
+Instal·lació
+
+[Pagina Instal·lació](https://linuxconfig.org/install-redis-on-redhat-8)

@@ -96,17 +96,17 @@ Per ultim podrem cambiar la contrasenya a **patata**:
 **Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades
 de Percona Server en el sistema operatiu?**
 
-Per arrancar Percons-Server:
+- Per arrancar Percons-Server:
 
 ![Iniciar Percona](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Iniciar%20Percona.png)
 
-Per verificar status:
+- Per verificar status:
 
 ![Status](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Status.png)
 
 
 
-Per apagar servei: (Poner captura)
+- Per apagar servei: (Poner captura)
 
 ![Parar Percona](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/parar%20percona.png)
 
@@ -119,13 +119,13 @@ Per apagar servei: (Poner captura)
 
 **A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?**
 
-El nom que rep el fitxer de configuracio del SGBD Percona Server és **"my.cnf"** i es troba en el directori **"/etc/my.cnf"**
+- El nom que rep el fitxer de configuracio del SGBD Percona Server és **"my.cnf"** i es troba en el directori **"/etc/my.cnf"**
 
 ### 4
 
 **A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?**
 
-Els fitxers de dades (per defecte) es troben en el directori **"/var/lib/mysql/"**
+- Els fitxers de dades (per defecte) es troben en el directori **"/var/lib/mysql/"**
 
 
 
@@ -135,11 +135,39 @@ Els fitxers de dades (per defecte) es troben en el directori **"/var/lib/mysql/"
 usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al
 client mysql?**
 
-- Per crear un usuari en el sistema operatiu:
+- Per crear un usuari i posar-li una contrasenya en el sistema operatiu:
 
-- Per crear un usuari en MySQL:
+![5.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/5.1.png)
+
+![5.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/5.2.png)
+
+- Per crear un usuari i posar-li una contrasenya en MySQL a partir del nostre compte **'root'**:
+(Com en el primer exercici vaig cambiar els requisits de la politica de seguretat em deixa posar **'patata'**, pero si no em fet anteriorment aquests pasos no ens deixarà)
+
+![5.3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/5.3.png)
+
+- Per poder comprovar que s'han fet els canvis correctament posarem la següent comanda i ens haurà de sortir l'usuari asix
+
+![5.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/5.4.png)
+
+- Ara per poder accedir al MySQL amb l'usuari **'asix'** sense que ens demani la contrasenya crearem el segúent fitxer
+
+![5.5](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/5.5.png)
+
+- Posarem el segúent
+
+![5.6](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/5.6.png)
+
+- Asegurarem el fitxer creat
+
+![5.7](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/5.6.1.png)
+
+- Comprovarem si podem entrar al MySQL amb l'usuari **'asix'** sense contrasenya
+
+![5.8](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/5.7.png)
 
 
+[PaginaAjuda](https://tecadmin.net/mysql-commands-without-password-prompt/)
 
 ### 6 
 

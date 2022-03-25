@@ -47,8 +47,6 @@ Per accedir remotament al servidor hi haurà que modificar el Firewall amb les s
 
 En aquest punt ja podriem connectar-nos amb el servidor
 
-![R12](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/redis12.png)
-
 # Preguntes
 
 **Quin tipus de SGBD és Redis?

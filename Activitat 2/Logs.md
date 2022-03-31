@@ -7,35 +7,6 @@ logs.cnf a on:**
 per activar-los. Indica les rutes dels fitxer de log de Binary, Slow Query i General. Quins
 paràmetres has creat/modificat?**
 
-- Com podem veure en les següents imatges veiem que l'unic activat per defecte es el **"Binary Log"**, el **'General Log'** i el **'Slow Query Log'** hem d'activar-los.
-
-![BL](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/Es%20el%20Primero.png)
-
-![GL](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/1.2.png) 
-
-![SL](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/1.3.png)
-
-- Abans de tot crearem un fitxer .cnf anomenat logs així ordenarem en un sol fitxer les ordres que hi posem dels logs. Haurem de fer un include i posar la localització del fitxer **"logs.cnf"** dins del fitxer **"my.cnf"** abaix d'on posa **"[mysqld]"**
-
-![Carpeta](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/1.1.png)
-![include dir](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/1.6.png)
-
-- Una vegada fet els anteriors passos ja podrem començar. En primer lloc el que farem per activar el **'General Log'** serà anar al nostre fitxer logs.cnf
-
-- Una vegada fet els anteriors passos ja podrem començar. En primer lloc el que farem per activar el **'General Log'** serà crear un fitxer per posar el nostre **"general_log_file"** i seguidament posar com a usuari el fitxer mysql
-
-![Fitxer i usuari](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/1.4.png)
-
-- Després obrim el nostre fitxer **"logs.cnf"** i dins posarem el següent
-
-![GL2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/1.6.1.png)
-
-- Una vegada fet aquests canvis haurem de reiniciar el mysql per a que els canvis siguin efectius
-
-![Reiniciar](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/1.5.png)
-
-- Només ens caldria comprovar si s'ha activat el **"General Log"**
-
 
 
 

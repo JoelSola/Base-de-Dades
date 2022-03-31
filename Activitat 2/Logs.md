@@ -4,8 +4,7 @@
 logs.cnf a on:**
 
 **Activa els logs que no ho estiguin per defecte i indica les configuracions necessàries
-per activar-los. Indica les rutes dels fitxer de log de Binary, Slow Query i General. Quins
-paràmetres has creat/modificat?**
+per activar-los. Indica les rutes dels fitxer de log de 
 
 
 

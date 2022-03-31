@@ -20,7 +20,23 @@ paràmetres has creat/modificat?**
 ![Carpeta](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/1.1.png)
 ![include dir](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/1.6.png)
 
-- Una vegada fet els anteriors passos ja podrem començar. En primer lloc el que farem per activar el **'General Log'** serà
+- Una vegada fet els anteriors passos ja podrem començar. En primer lloc el que farem per activar el **'General Log'** serà anar al nostre fitxer logs.cnf
+
+- Una vegada fet els anteriors passos ja podrem començar. En primer lloc el que farem per activar el **'General Log'** serà crear un fitxer per posar el nostre **"general_log_file"** i seguidament posar com a usuari el fitxer mysql
+
+![Fitxer i usuari](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/1.4.png)
+
+- Després obrim el nostre fitxer **"logs.cnf"** i dins posarem el següent
+
+![GL2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/1.6.1.png)
+
+- Una vegada fet aquests canvis haurem de reiniciar el mysql per a que els canvis siguin efectius
+
+![Reiniciar](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/1.5.png)
+
+- Només ens caldria comprovar si s'ha activat el **"General Log"**
+
+
 
 
 https://docs.cpanel.net/knowledge-base/sql/how-to-enable-the-slow-query-log-in-mysql-or-mariadb/

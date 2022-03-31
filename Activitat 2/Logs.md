@@ -1,3 +1,6 @@
+
+https://support.cpanel.net/hc/en-us/articles/360051031694-Enable-MySQL-General-Query-Log
+
 # Exercicis
 
 **Quins són els logs activats per defecte? Crea un fitxer de configuració anomenat

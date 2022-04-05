@@ -6,8 +6,9 @@ https://support.cpanel.net/hc/en-us/articles/360051031694-Enable-MySQL-General-Q
 1. 
 
 **Quins són els logs activats per defecte? Crea un fitxer de configuració anomenat 
-logs.cnf a on:
-Activa els logs que no ho estiguin per defecte i indica les configuracions necessàries 
+logs.cnf a on:**
+
+**Activa els logs que no ho estiguin per defecte i indica les configuracions necessàries 
 per activar-los. Indica les rutes dels fitxer de log de Binary, Slow Query i General. Quins 
 paràmetres has creat/modificat?**
 

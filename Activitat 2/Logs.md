@@ -28,9 +28,9 @@ Dins d'aquest fitxer escriurem el següent per activar el **'General Log'**
 
 ![General Log 2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.5.png)
 
-Per a que el que haguem escrit anteriorment sigui efectiu haurem d'anar al directori **'etc'** i obrir l'arxiu **'my.cnf'**
+Per a que el que haguem escrit anteriorment sigui efectiu haurem d'anar al directori **'etc'** i obrir l'arxiu **'my.cnf'**, abaix d'on posa **'[mysqld]'** posarem !include i la localització del nostre fitxer **'logs.cnf'**, això ho farem per vincular el nostre fitxer amb el fitxer de configuració **'my.cnf'**
 
-![](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.6.png)
+![include directory](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.6.png)
 
 
 https://docs.cpanel.net/knowledge-base/sql/how-to-enable-the-slow-query-log-in-mysql-or-mariadb/

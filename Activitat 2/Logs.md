@@ -38,8 +38,6 @@ Llavors comprovem s'hi han sigut efectius els canvis
 
 ![Comprovacio General Log](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.7.png)
 
-Ara crearem el següent fitxer i li posarem
-
 
 
 https://docs.cpanel.net/knowledge-base/sql/how-to-enable-the-slow-query-log-in-mysql-or-mariadb/

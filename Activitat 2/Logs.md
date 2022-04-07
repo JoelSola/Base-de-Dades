@@ -31,9 +31,27 @@ Per a que el que haguem escrit anteriorment sigui efectiu haurem d'anar al direc
 
 Y una vegada fet aquests passos haurem de reiniciar el mysql
 
+![Comprovacio General Log](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.7.png)
+
 Llavors comprovem s'hi han sigut efectius els canvis
 
-![Comprovacio General Log](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.7.png)
+![Comprovacio General Log](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.8.png)
+
+A continució habilitarem el **'Slow Query Log'**, en primer lloc crearem una carpeta i posarem com usuari mysql 
+
+![1.9](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.9.png)
+
+Després ens anirem al fitxer de configuracio **'logs.cnf'** i posarem el següent (l'últim parametre és opcional ja que serveix per cambiar el temps d'un **'Slow Query Log'**).
+
+![1.10](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.10.png)
+
+Per a que els canvis siguin efectius reiniciarem el mysql
+
+![Comprovacio Slow Query Log](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.7.png)
+
+Llavors comprovem s'hi han sigut efectius els canvis
+
+https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.11.png
 
 
 1
@@ -51,3 +69,7 @@ https://tableplus.com/blog/2018/10/how-to-show-queries-log-in-mysql.html
 7
 
 https://stackoverflow.com/questions/4284524/how-and-when-to-use-sleep-correctly-in-mysql
+
+8
+
+https://dev.mysql.com/doc/refman/8.0/en/purge-binary-logs.html

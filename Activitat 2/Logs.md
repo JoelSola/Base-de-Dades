@@ -1,6 +1,6 @@
 # Exercicis
 
-1. 
+## 1. 
 
 **Quins són els logs activats per defecte? Crea un fitxer de configuració anomenat 
 logs.cnf a on:**

@@ -45,4 +45,4 @@ https://docs.cpanel.net/knowledge-base/sql/how-to-enable-the-slow-query-log-in-m
 https://www.thegeekdiary.com/configuring-mysqld-to-log-slow-queries/
 https://stackoverflow.com/questions/15695937/how-can-i-add-an-extra-configuration-file-for-mysql-my-cnf
 3
-https://geekflare.com/es/disable-binary-log-mariadb/
+https://stackoverflow.com/questions/62893433/disable-binary-logging-in-mysql-8-for-windows

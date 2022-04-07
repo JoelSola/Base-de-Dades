@@ -39,7 +39,10 @@ Llavors comprovem s'hi han sigut efectius els canvis
 ![Comprovacio General Log](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.7.png)
 
 
-
+1
+https://support.cpanel.net/hc/en-us/articles/360051031694-Enable-MySQL-General-Query-Log
 https://docs.cpanel.net/knowledge-base/sql/how-to-enable-the-slow-query-log-in-mysql-or-mariadb/
 https://www.thegeekdiary.com/configuring-mysqld-to-log-slow-queries/
 https://stackoverflow.com/questions/15695937/how-can-i-add-an-extra-configuration-file-for-mysql-my-cnf
+3
+https://geekflare.com/es/disable-binary-log-mariadb/

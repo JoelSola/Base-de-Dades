@@ -47,3 +47,7 @@ https://stackoverflow.com/questions/62893433/disable-binary-logging-in-mysql-8-f
 
 4
 https://tableplus.com/blog/2018/10/how-to-show-queries-log-in-mysql.html
+
+7
+
+https://stackoverflow.com/questions/4284524/how-and-when-to-use-sleep-correctly-in-mysql

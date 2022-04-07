@@ -51,7 +51,7 @@ Per a que els canvis siguin efectius reiniciarem el mysql
 
 Llavors comprovem s'hi han sigut efectius els canvis
 
-https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.11.png
+![1.11](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.11.png)
 
 
 1

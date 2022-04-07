@@ -54,12 +54,14 @@ paràmetres has creat/modificat?**
 ![1.11](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.11.png)
 
 
+
 ## 2
 
 **Comprova l'estat de les opcions de log que has utilitzat mitjançant una sessió de mysql 
 client.**
 
 ![2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/2.png)
+
 
 
 ## 3
@@ -78,6 +80,7 @@ Simplament desactiva'ls no borris altres paràmetres com la ruta dels fitxers, e
 - Llavors verificarem si s'han desactivat
 
 ![3.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/3.1.png)
+
 
 
 ## 4
@@ -101,6 +104,7 @@ has utilitzat? A quina taula es guarden els dels del general log?**
 - Llavors un cop habilitat els tres logs ens faltaria canviar el **log_output** en format **table**
 
 ![4.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/4.3.png)
+
 
 
 ## 5
@@ -129,6 +133,62 @@ has utilitzat? A quina taula es guarden els dels del general log?**
 - Hi han 6 sentencies
 
 ![6](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/6.png)
+
+
+
+## 7
+
+**Executa una query mitjançant la funció SLEEP(11) per tal de que es guardi en el log de 
+Slow Query Log. Mostra el contingut del log demostrant-ho.**
+
+En primer lloc creem la sentencia amb **'SLEEP(11)'** 
+
+![7](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/7.png)
+
+Després fem un SELECT del **'Slow Query Log'** i podrem veure que ens surt el log de la sentencia anterior
+
+![7.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/7.1.png)
+
+
+
+## 8
+
+**Assegura't que el Binary Log estigui activat i borra tots els logs anteriors mitjançant la 
+sentència RESET MASTER.**
+
+![8](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/8.png)
+
+![8.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/8.uno.png)
+
+**Crea i esborra una base de dades anomenada foo**
+
+![8.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/8.1.png)
+
+**Mitjançant la sentència SHOW BINLOG EVENTS llista els events i comprova les sentències anteriors en quin fitxer de log estan.**
+
+- Les sentències anteriors estan en el fitxer **'binlog.000001'**
+
+![8.3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/8.2.png)
+
+**Realitza un rotate log mitjançant la sentència FLUSH LOGS. Què realitza exactament 
+aquesta sentència?**
+
+![8.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/8.3.png)
+
+**Crea i esborra una altra base de dades com l'exemple anteior del foo. Però en aquest 
+cas anomena la base de dades bar**
+
+![8.5](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/8.4.png)
+
+**Llista tots els fitxers de log i els últims canvis mitjançant la sentència SHOW. Quina 
+sentència has utilitzat? Mostra'n el resultat.**
+
+![8.6](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/8.5.png)
+
+**Esborra el primer binary log. Quina sentència has utilitzat?**
+
+**Utilitza el programa mysqlbinlog per mostrar el fitxer mysql-bin.000002**
+
 
 1
 https://support.cpanel.net/hc/en-us/articles/360051031694-Enable-MySQL-General-Query-Log

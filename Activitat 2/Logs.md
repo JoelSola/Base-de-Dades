@@ -9,7 +9,7 @@ logs.cnf a on:**
 per activar-los. Indica les rutes dels fitxer de log de General, Slow Query i Binary. Quins 
 paràmetres has creat/modificat?**
 
-- Com podem veure en les imatges següents l'unic Log activat per defecte és el **'Binary Log'**, el **'General Log'** i el **'Slow Query Log'** haurem d'activarlos
+- Com podem veure en les imatges següents els Logs activats per defecte és el **'Error Log'** i el **'Binary Log'**, el **'General Log'** i el **'Slow Query Log'** haurem d'activarlos
 
 ![General Log](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/1.1.png)
 

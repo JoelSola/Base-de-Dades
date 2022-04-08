@@ -203,7 +203,9 @@ sentència has utilitzat? Mostra'n el resultat.**
 
 ## 9
 
-
+**De quina manera podem desactivar el binary log només d’una sessió en concret. Imagina’t 
+que ets un administrador de la BD i no vols que les instruccions que facis es gravin en el 
+binary_log.**
 
 # Webgrafia
 

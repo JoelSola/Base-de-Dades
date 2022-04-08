@@ -222,7 +222,7 @@ https://dev.mysql.com/doc/sakila/en/sakila-installation.html
 
 https://stackoverflow.com/questions/4284524/how-and-when-to-use-sleep-correctly-in-mysql
 
-## 8
+### 8
 
 https://dev.mysql.com/doc/refman/8.0/en/purge-binary-logs.html
 

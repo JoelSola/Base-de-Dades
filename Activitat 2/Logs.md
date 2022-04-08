@@ -173,6 +173,8 @@ sentència RESET MASTER.**
 **Realitza un rotate log mitjançant la sentència FLUSH LOGS. Què realitza exactament 
 aquesta sentència?**
 
+- Aquesta sentència tanca i torna a obrir tots els logs referents al servidor
+
 ![8.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/8.3.png)
 
 **Crea i esborra una altra base de dades com l'exemple anteior del foo. Però en aquest 

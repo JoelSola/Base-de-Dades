@@ -228,8 +228,3 @@ https://stackoverflow.com/questions/4284524/how-and-when-to-use-sleep-correctly-
 
 https://dev.mysql.com/doc/refman/8.0/en/purge-binary-logs.html
 
-
-### SSL
-
-https://linuxhint.com/disable-firewall-centos-8/
-

@@ -187,6 +187,14 @@ sentència has utilitzat? Mostra'n el resultat.**
 
 **Esborra el primer binary log. Quina sentència has utilitzat?**
 
+- He utillitzat la sentència **'PURGE BINARY LOGS'**
+
+![8.7](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/8.7.png)
+
+- Verifiquem que el primer fitxer s'ha esborrat
+
+![8.8](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/8.8.png)
+
 **Utilitza el programa mysqlbinlog per mostrar el fitxer mysql-bin.000002**
 
 

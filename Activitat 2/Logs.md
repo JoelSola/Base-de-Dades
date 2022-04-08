@@ -198,26 +198,36 @@ sentència has utilitzat? Mostra'n el resultat.**
 **Utilitza el programa mysqlbinlog per mostrar el fitxer mysql-bin.000002**
 
 
-1
+
+# Webgrafia
+
+
+### 1
 https://support.cpanel.net/hc/en-us/articles/360051031694-Enable-MySQL-General-Query-Log
 https://docs.cpanel.net/knowledge-base/sql/how-to-enable-the-slow-query-log-in-mysql-or-mariadb/
 https://www.thegeekdiary.com/configuring-mysqld-to-log-slow-queries/
 https://stackoverflow.com/questions/15695937/how-can-i-add-an-extra-configuration-file-for-mysql-my-cnf
 
-3
+### 3
 https://stackoverflow.com/questions/62893433/disable-binary-logging-in-mysql-8-for-windows
 
-4
+### 4
 https://tableplus.com/blog/2018/10/how-to-show-queries-log-in-mysql.html
 
-5
+### 5
 
 https://dev.mysql.com/doc/sakila/en/sakila-installation.html
 
-7
+### 7
 
 https://stackoverflow.com/questions/4284524/how-and-when-to-use-sleep-correctly-in-mysql
 
-8
+## 8
 
 https://dev.mysql.com/doc/refman/8.0/en/purge-binary-logs.html
+
+
+### SSL
+
+https://linuxhint.com/disable-firewall-centos-8/
+

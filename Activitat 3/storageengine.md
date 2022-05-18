@@ -21,3 +21,9 @@ activitat 2
 1
 
 https://dev.mysql.com/doc/refman/8.0/en/csv-storage-engine.html
+
+activitat 4
+
+1
+
+https://dba.stackexchange.com/questions/61116/migrate-from-innodb-file-per-table-to-off-in-mysql

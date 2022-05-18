@@ -35,3 +35,10 @@ https://dev.mysql.com/doc/mysql-secure-deployment-guide/5.7/en/secure-deployment
 3
 
 https://dev.mysql.com/doc/refman/5.6/en/innodb-system-tablespace.html
+
+4
+
+Canviar localització
+
+https://www.digitalocean.com/community/tutorials/how-to-move-a-mysql-data-directory-to-a-new-location-on-ubuntu-16-04
+

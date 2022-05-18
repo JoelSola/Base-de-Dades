@@ -27,3 +27,7 @@ activitat 4
 1
 
 https://dba.stackexchange.com/questions/61116/migrate-from-innodb-file-per-table-to-off-in-mysql
+
+2
+
+https://dev.mysql.com/doc/mysql-secure-deployment-guide/5.7/en/secure-deployment-permissions.html

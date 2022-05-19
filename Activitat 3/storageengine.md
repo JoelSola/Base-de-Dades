@@ -1,3 +1,13 @@
+# STORAGE ENGINE
+
+## Exercicis
+
+### 1.1
+
+**Indica quins són els motors d’emmagatzematge que pots utilitzar (quins estan actius)? Mostra al comanda utilitzada i el resultat d’aquesta.**
+
+
+
 # Webgrafia
 
 1

@@ -51,7 +51,11 @@ Llavors com podem comprovar en la següent imatge ja el tenim llest:
 
 ## - Exercici 2
 
+**Documenta i posa exemple de com utilitzar ENGINE CSV.**
 
+![2.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/2.1.png)
+
+![2.1 (2)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/2.1%20(2).png)
 
 
 

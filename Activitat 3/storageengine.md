@@ -73,6 +73,7 @@ https://dev.mysql.com/doc/mysql-secure-deployment-guide/5.7/en/secure-deployment
 3
 
 https://dev.mysql.com/doc/refman/5.6/en/innodb-system-tablespace.html
+https://dev.mysql.com/doc/refman/8.0/en/innodb-init-startup-configuration.html
 
 4
 

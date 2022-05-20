@@ -1,14 +1,18 @@
 # STORAGE ENGINE
 
-## Exercicis
+## Exercicis:
+
+## - Exercici 1
 
 ### 1.1
 
 **Indica quins són els motors d’emmagatzematge que pots utilitzar (quins estan actius)? Mostra al comanda utilitzada i el resultat d’aquesta.**
 
-[1.1]()
+- Els motors d'emmagatzematge que estan actius son tots els següents menys el **FEDERATED**, per saber-los hi ha que posar la següent comanda:
 
-[1.1 (2)]()
+[1.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.1.png)
+
+[1.1 (2)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.1%20(2).png)
 
 ### 1.2
 
@@ -19,7 +23,7 @@ MyISAM?**
 
 - Per canviar el motor d'emmagatzematge per defecte a MyISAM posem el següent:
 
-[1.2]()
+[1.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.2.png)
 
 ### 1.3
 
@@ -32,7 +36,22 @@ Amb el que em fet al exercici **1.1**.
 **Explica els passos per instal·lar i activar l'ENGINE MyRocks. MyRocks és un motor d'emmagatzematge per MySQL basat en RocksDB (SGBD incrustat de tipus clau-valor). Aquest tipus d’emmagatzematge està optimitzat per ser molt eficient en les escriptures amb lectures
 acceptables.**
 
-[1.4]()
+Descarreguem el repositori:
+
+[1.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.4.png)
+
+Activem el MyRocks:
+
+[1.4 (2)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.4%20(2).png)
+
+Llavors com podem comprovar en la següent imatge ja el tenim llest:
+
+[1.4 (3)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.4%20(3).png)
+
+
+## - Exercici 2
+
+
 
 
 

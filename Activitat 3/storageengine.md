@@ -162,11 +162,11 @@ resta de taules.**
 
 **• L'últim LSN actualitzat a disc**
 
-Podem veure que l'ultim LSN actualitzat a disc es el mateix 27514124
+- Podem veure que l'ultim LSN actualitzat a disc es el mateix 27514124
 
 **• Quin és l'últim LSN que se li ha fet Checkpoint**
 
-L'ultim LSN al que se li ha fet Checkpoint també ha sigut el 27514124
+- L'ultim LSN al que se li ha fet Checkpoint també ha sigut el 27514124
 
 
 

@@ -95,8 +95,22 @@ mida inicial?**
 
 ![4.4(5)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.4(4).png)
 
+**Quin/quins són els fitxers de dades? A on es troben i quina és la seva mida?**
 
+![4.5](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.5.png)
 
+**Canvia la configuració del MySQL per:**
+- **Canviar la localització del directori de dades a /hd-mysql/**
+
+- Creem la carpeta
+
+![4.6.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.6.1.png)
+
+- Dins del fitxer **my.cnf** posem els parametres innodb_data_home_dir | innodb_data_file_path | innodb_log_group_home_dir y li asignem la nova localització incloent el datadir
+
+![4.6.1(2)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.6.1(2).png)
+
+![4.6.1(3)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.6.1(3).png)
 
 # Webgrafia
 

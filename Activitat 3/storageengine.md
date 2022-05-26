@@ -112,6 +112,36 @@ mida inicial?**
 
 ![4.6.1(3)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.6.1(3).png)
 
+
+## - Exercici 5
+
+**Crea un tablespace anomenat 'ts1' situat a /discs-mysql/disc1/ i col·loca les taules 
+actor, address i category de la BD Sakila.**
+
+- Creem la tablespace **ts1**
+
+![6.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.2.png)
+
+- Asignem a les taules **actor**, **address** i **category** la tablespace **ts1**
+
+![6.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.4.png)
+
+ - Creem la tablespace **ts2**
+
+![6.3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.3.png)
+
+- Asignem a les taules **city**, **country**, **customer**, **film**, **inventory**, **language**, **payment**, **rental**, **staff** i **store** la tablespace **ts2**
+
+![6.4]()
+
+
+
+
+
+
+
+
+
 # Webgrafia
 
 1

@@ -29,22 +29,22 @@ MyISAM?**
 
 **Com podem saber quin és el motor d'emmagatzematge per defecte?**
 
-Amb el que em fet al exercici **1.1**.
+- Amb el que em fet al exercici **1.1**.
 
 ### 1.4
 
 **Explica els passos per instal·lar i activar l'ENGINE MyRocks. MyRocks és un motor d'emmagatzematge per MySQL basat en RocksDB (SGBD incrustat de tipus clau-valor). Aquest tipus d’emmagatzematge està optimitzat per ser molt eficient en les escriptures amb lectures
 acceptables.**
 
-Descarreguem el repositori:
+- Descarreguem el repositori:
 
 ![1.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.4.png)
 
-Activem el MyRocks:
+- Activem el MyRocks:
 
 ![1.4 (2)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.4%20(2).png)
 
-Llavors com podem comprovar en la següent imatge ja el tenim llest:
+- Llavors com podem comprovar en la següent imatge ja el tenim llest:
 
 ![1.4 (3)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.4%20(3).png)
 
@@ -56,6 +56,45 @@ Llavors com podem comprovar en la següent imatge ja el tenim llest:
 ![2.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/2.1.png)
 
 ![2.1 (2)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/2.1%20(2).png)
+
+
+## - Exercici 4
+
+**Desactiva l’opció que ve per defecte de innodb_file_per_table**
+
+![4.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.1.png)
+
+- Y reiniciem el mysql posant: **service mysql restart**
+
+**Quins són els permisos i l'usuari i grup de la carpeta que conté el directori de dades (datadir**
+
+|[4.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.2.png)
+
+**Mostra quina és la mida del tablespace de sistema (System Tablespace). Per què té aquesta 
+mida inicial?**
+
+![4.3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.3.png)
+
+**Importa la BD Sakila com a taules InnoDB (https://dev.mysql.com/doc/index-other.html)**
+
+- Primer descarreguem l'arxiu mitjançant web:
+
+![4.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/5.png)
+
+- Després extraiem el contingut:
+
+![4.4(2)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.4.png)
+
+- Després creem la estructura de la base de dades:
+
+![4.4(3)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.4(2).png)
+
+![4.4(4)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.4(3).png)
+
+- Com podem veure ja la tenim:
+
+![4.4(5)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.4(4).png)
+
 
 
 

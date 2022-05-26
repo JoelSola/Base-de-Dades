@@ -158,6 +158,17 @@ resta de taules.**
 
 **• LSN (Log Sequence Number)**
 
+- Podem veure que el Log Sequence Number es el primer que podem veure 27514124
+
+**• L'últim LSN actualitzat a disc**
+
+Podem veure que l'ultim LSN actualitzat a disc es el mateix 27514124
+
+**• Quin és l'últim LSN que se li ha fet Checkpoint**
+
+L'ultim LSN al que se li ha fet Checkpoint també ha sigut el 27514124
+
+
 
 
 

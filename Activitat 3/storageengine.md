@@ -126,14 +126,37 @@ actor, address i category de la BD Sakila.**
 
 ![6.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.4.png)
 
+**Crea un altre tablespace anomenat 'ts2' situat a /discs-mysql/disc2/ i col·loca-hi la 
+resta de taules.**
+
+
  - Creem la tablespace **ts2**
 
 ![6.3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.3.png)
 
 - Asignem a les taules **city**, **country**, **customer**, **film**, **inventory**, **language**, **payment**, **rental**, **staff** i **store** la tablespace **ts2**
 
-![6.4]()
 
+![6.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.6.png)
+
+- (No he posat les de més perquè hi hauria moltes captures)
+
+- Podem fer sentencies DML:
+
+![6.5](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.7.png)
+
+![6.6](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.8.png)
+
+
+## - Exercici 5
+
+**Com podem comprovar (Innodb Log Checkpointing):**
+
+![7.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/7.1.png)
+
+![7.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/7.1.png)
+
+**• LSN (Log Sequence Number)**
 
 
 

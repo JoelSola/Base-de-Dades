@@ -68,7 +68,7 @@ acceptables.**
 
 **Quins són els permisos i l'usuari i grup de la carpeta que conté el directori de dades (datadir**
 
-|[4.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.2.png)
+![4.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.2.png)
 
 **Mostra quina és la mida del tablespace de sistema (System Tablespace). Per què té aquesta 
 mida inicial?**

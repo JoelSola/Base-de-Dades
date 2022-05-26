@@ -154,7 +154,7 @@ resta de taules.**
 
 ![7.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/7.1.png)
 
-![7.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/7.1.png)
+![7.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/7.2.png)
 
 **• LSN (Log Sequence Number)**
 

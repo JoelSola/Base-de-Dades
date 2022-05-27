@@ -87,6 +87,41 @@ Dins del fitxer **/etc/my.cnf** abaix de **[mysqld]** posem **server_id = (numer
 
 ![1.11](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.12.png)
 
+**Afegix el permís de REPLICATION SLAVE a l'usuari que acabes de crear.**
+
+![1.12](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.13.png)
+
+![1.13](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.14.png)
+
+**A la màquina SLAVE executa la següent comanda ajudant-te de les dades del pas 3 i 4**
+
+- Abans de fer aquest pas el que farem serà deshabilitar el firewall al Slave i al Master
+
+![Firewall](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/desactivar%20firewall.png)
+
+- També modificarem l'usuari slave en la maquina Master, posarem 
+
+**ALTER USER 'slave'@'192.168.56.109' IDENTIFIED WITH mysql_native_password BY 'patata';**
+
+- Llavors ja podrem fer aquest pas
+
+![1.14](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.15.png)
+
+- Llavors posem **START SLAVE;** i veiem en **SHOW SLAVE STATUS \G;** per veure si tot esta correct. Si tot a sortit bé només caldria crear una base de dades al master i veure al Slave si esta creada
+
+![1.15](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.16.png)
+
+
+
+
+
+
+
+
+
+# Webgrafia
+
+https://stackoverflow.com/questions/49194719/authentication-plugin-caching-sha2-password-cannot-be-loaded
 - 
 
 

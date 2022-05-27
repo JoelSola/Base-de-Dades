@@ -58,6 +58,7 @@ busca els valors MASTER_LOG_FILE i MASTER_LOG_POS.**
 
 !
 
+
 ### SLAVE
 
 **Para el servei de MySQL.**
@@ -71,7 +72,22 @@ desactivarem el sistema de log-bin**
 
 **Assigna un valor al paràmetre server-id (diferent que el del Master)**
 
-![1.9](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.10.png)
+Dins del fitxer **/etc/my.cnf** abaix de **[mysqld]** posem **server_id = (numero diferent que el del Master)**
+
+**Torna engegar el servei MySQL.**
+
+![1.10](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.10.png)
+
+
+### MASTER
+
+**Afegeix l'usuari slave amb la IP de la màquina slave**
+
+- Canviem les credencials de la contrasenya per poder posar **patata**
+
+![1.11](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.12.png)
+
+- 
 
 
 

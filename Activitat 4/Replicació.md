@@ -1,132 +1,111 @@
-# REPLICACIÓ
+# 🔄 Replicación
 
-## Exercicis:
+## Ejercicios:
 
-## - Activitat 1
+## - Actividad 1
 
-### CONFIGURACIÓ MASTER
+### CONFIGURACIÓN MASTER
 
-**Verifica que el paràmetre server-id té un valor numèric (per defecte és 1).**
+**Verifica que el parámetro server-id tiene un valor numérico (por defecto es 1).**
 
-- Per veure el valor numeric que té el server-id posem la següent comanda:
+- Para ver el valor numérico que tiene el server-id ponemos el siguiente comando:
 
 ![1.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.1.png)
 
-**Fes un FLUSH DELS LOGS utilitzant la comanda FLUSH LOGS dins del MySQL**
+**Haz un FLUSH DE LOS LOGS utilizando el comando FLUSH LOGS dentro de MySQL**
 
-- Fem un FLUSH LOG:
+- Hacemos un FLUSH LOG:
 
 ![1.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.2.png)
 
-**Realitza una comprovació dels logs com a master mitjançant SHOW MASTER LOGS**
+**Realiza una comprobación de los logs como master mediante SHOW MASTER LOGS**
 
-- Em surt el següent:
+- Nos sale lo siguiente:
 
 ![1.3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.3.png)
 
-**Realitza una còpia de la màquina virtual a on tinguis SGBD MySQL. Aquesta nova màquina serà 
-que farà d'eslau.**
+**Realiza una copia de la máquina virtual donde tengas SGBD MySQL. Esta nueva máquina será la que hará de esclava.**
 
-**Esbrina quina IP tenen cadascuna de les màquines (master, slave)**
+**Averigua cuál es la IP de cada una de las máquinas (master, slave)**
 
-Creem un altre servidor i a partir de la comanda **ifconfig** podem saber la adreça ip de la nostra maquina
+Creamos otro servidor y a partir del comando **ifconfig** podemos saber la dirección IP de nuestra máquina
 
 MASTER
 
 ![master](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/ordenador%20entrada.png)
 
-SLAVE 
+SLAVE
 
 ![slave](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/ordenador%20salida.png)
 
-**Crea un backup de la BD a la màquina master utilitzant**
+**Crea un backup de la BD en la máquina master utilizando**
 
-- Fem la següent comanda:
+- Hacemos la siguiente comando:
 
 ![1.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.4.png)
 
-**Edita el fitxer master_backup.sql i busca la línia que comenci per --CHANGE MASTER TO.... i 
-busca els valors MASTER_LOG_FILE i MASTER_LOG_POS.**
+**Edita el archivo master_backup.sql y busca la línea que comience por --CHANGE MASTER TO.... y busca los valores MASTER_LOG_FILE y MASTER_LOG_POS.**
 
-- Editem el següent fitxer:
+- Editamos el siguiente archivo:
 
 ![1.5](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.5.png)
 
-- Dins d'aquest fitxer podem trobar aquesta linia:
+- Dentro de este archivo podemos encontrar esta línea:
 
 ![1.6](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.6.png)
 
 !
 
-
 ### SLAVE
 
-**Para el servei de MySQL.**
+**Para el servicio de MySQL.**
 
 ![1.7](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.7.png)
 
-**Comenta els paràmetres log-bin i binlog_format. D'aquesta manera 
-desactivarem el sistema de log-bin**
+**Comenta los parámetros log-bin y binlog_format. De esta manera desactivaremos el sistema de log-bin**
 
 ![1.8](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.9.png)
 
-**Assigna un valor al paràmetre server-id (diferent que el del Master)**
+**Asigna un valor al parámetro server-id (diferente que el del Master)**
 
-Dins del fitxer **/etc/my.cnf** abaix de **[mysqld]** posem **server_id = (numero diferent que el del Master)**
+Dentro del archivo **/etc/my.cnf** abajo de **[mysqld]** ponemos **server_id = (numero diferente que el del Master)**
 
-**Torna engegar el servei MySQL.**
+**Vuelve a encender el servicio MySQL.**
 
 ![1.10](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.10.png)
 
-
 ### MASTER
 
-**Afegeix l'usuari slave amb la IP de la màquina slave**
+**Añade el usuario slave con la IP de la máquina slave**
 
-- Canviem les credencials de la contrasenya per poder posar **patata**
+- Cambiamos las credenciales de la contraseña para poder poner **patata**
 
 ![1.11](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.12.png)
 
-**Afegix el permís de REPLICATION SLAVE a l'usuari que acabes de crear.**
+**Añade el permiso de REPLICATION SLAVE al usuario que acabas de crear.**
 
 ![1.12](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.13.png)
 
 ![1.13](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.14.png)
 
-**A la màquina SLAVE executa la següent comanda ajudant-te de les dades del pas 3 i 4**
+**En la máquina SLAVE ejecuta la siguiente comando ayudándote de los datos del paso 3 y 4**
 
-- Abans de fer aquest pas el que farem serà deshabilitar el firewall al Slave i al Master
+- Antes de hacer este paso lo que haremos será deshabilitar el firewall en el Slave y en el Master
 
 ![Firewall](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/desactivar%20firewall.png)
 
-- També modificarem l'usuari slave en la maquina Master, posarem 
+- También modificaremos el usuario slave en la máquina Master, pondremos
 
 **ALTER USER 'slave'@'192.168.56.109' IDENTIFIED WITH mysql_native_password BY 'patata';**
 
-- Llavors ja podrem fer aquest pas
+- Entonces ya podremos hacer este paso
 
 ![1.14](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.15.png)
 
-- Llavors posem **START SLAVE;** i veiem en **SHOW SLAVE STATUS \G;** per veure si tot esta correct. Si tot a sortit bé només caldria crear una base de dades al master i veure al Slave si esta creada
+- Entonces ponemos **START SLAVE;** y vemos en **SHOW SLAVE STATUS \G;** para ver si todo está correcto. Si todo ha salido bien solo haría falta crear una base de datos en el master y ver en el Slave si está creada
 
 ![1.15](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Imatges/1.16.png)
 
-
-
-
-
-
-
-
-
-# Webgrafia
+# 📚 Webgrafía
 
 https://stackoverflow.com/questions/49194719/authentication-plugin-caching-sha2-password-cannot-be-loaded
-- 
-
-
-
-
-
-
-

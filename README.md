@@ -1,4 +1,4 @@
-# Base-de-Datos
+# BASES DE DATOS
 Aqui muestro las actividades que hice durante el curso
 
 ## Actividad 1

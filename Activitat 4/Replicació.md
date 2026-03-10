@@ -1,7 +1,5 @@
 # 🔄 Replicación
 
-## Ejercicios:
-
 ## - Actividad 1
 
 ### CONFIGURACIÓN MASTER

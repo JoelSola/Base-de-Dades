@@ -1,2 +1,2 @@
-# Base-de-Dades
-Aqui trobem les diferents activitats que he fet durant el curs
+# Base-de-Datos
+Aqui muestro las actividades que hice durante el curso

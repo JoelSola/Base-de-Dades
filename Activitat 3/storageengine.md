@@ -1,4 +1,4 @@
-# STORAGE ENGINE
+# STORAGE ENGINES
 
 ## Exercicis:
 
@@ -58,7 +58,7 @@ acceptables.**
 ![2.1 (2)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/2.1%20(2).png)
 
 
-## - Exercici 4
+## - Exercici 3
 
 **Desactiva l’opció que ve per defecte de innodb_file_per_table**
 
@@ -113,7 +113,7 @@ mida inicial?**
 ![4.6.1(3)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.6.1(3).png)
 
 
-## - Exercici 5
+## - Exercici 4
 
 **Crea un tablespace anomenat 'ts1' situat a /discs-mysql/disc1/ i col·loca les taules 
 actor, address i category de la BD Sakila.**

@@ -1,7 +1,5 @@
 # 🗂️ Storage Engines
 
-## Ejercicios:
-
 ## - Ejercicio 1
 
 ### 1.1

@@ -6,10 +6,10 @@ Aquí muestro las actividades que hice durante el curso de bases de datos. ¡Exp
 
 | Actividad | Descripción | Enlace |
 |-----------|-------------|--------|
-| **1** | Instalación y configuración inicial de MySQL, Percona Server y Redis. | [Ver detalles]([#actividad-1](https://github.com/JoelSola/Base-de-Dades/tree/main/Activitat%201) |
+| **1** | Instalación y configuración inicial de MySQL, Percona Server y Redis. | [Ver detalles](https://github.com/JoelSola/Base-de-Dades/tree/main/Activitat%201) |
 | **2** | Configuración de logs en MySQL (general, slow query, binary). | [Ver detalles](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Logs.md) |
 | **3** | Motores de almacenamiento en MySQL (MyRocks, CSV, InnoDB, etc.). | [Ver detalles](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/storageengine.md) |
-| **4** | Replicación en MySQL (master-slave). | [Ver detalles]([#actividad-4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Replicaci%C3%B3.md) |
+| **4** | Replicación en MySQL (master-slave). | [Ver detalles](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%204/Replicaci%C3%B3.md) |
 
 ## 🛠️ Actividad 1
 En esta actividad realicé la documentación de la instalación y configuración inicial de los sistemas de bases de datos siguientes:

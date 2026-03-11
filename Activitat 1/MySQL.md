@@ -1,63 +1,47 @@
-# Instal·lació                                                                                                 
+# 🐬 Instalación de MySQL
 
-- En primer lloc, anem a la web i descarreguem el MySQL mitjançant la següent comanda:
+- En primer lugar, vamos a la web y descargamos MySQL mediante el siguiente comando:
 
 ![mysql1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/mysql1.1.png)
 
-- En segon lloc instalem el MySQL:
+- En segundo lugar instalamos MySQL:
 
 ![mysql2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/mysql2.png)
 
-- Despres tenim que deshabilitar el modul mysql;
+- Después tenemos que deshabilitar el módulo mysql:
 
 ![mysql3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/mysql3.png)
 
-- Per ultim una vegada deshabilitat el mysql podem instalar-lo
+- Por último, una vez deshabilitado MySQL podemos instalarlo:
 
 ![mysql4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/mysql4.png)
 
-Només he pogut fer captura d'aixo perque no podia pujar amunt
+Solo pude hacer captura de esto porque no podía subir arriba:
 
 ![mysql5](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/mysql5.png)
 
+## ❓ Preguntas
 
+**¿Dónde se encuentran físicamente los archivos de datos?**
 
-# Preguntes
+- Los archivos de datos se encuentran en el directorio **"/var/lib/mysql/"**.
 
-**A on es troben físicament els fitxers de dades?**
+**¿Dónde se encuentra el archivo de configuración? ¿Cuál es su contenido?**
 
-- Els fitxers de dades es troben en el directori **"/var/lib/mysql/"**
-
-
-**A on es troba el fitxer de configuració? Quin és el seu contingut?
-
-- El fitxer de configuració es troba en el directori **"/etc/my.cnf"**. El contingut del fitxer de configuracio es el següent:
+- El archivo de configuración se encuentra en el directorio **"/etc/my.cnf"**. El contenido del archivo de configuración es el siguiente:
 
 ![p2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/pregunta%20MySQL%202.1.png)
 ![p22](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/pregunta%20MySQL%202.2.png)
 
+**El proceso de mysqld escucha en el puerto 3306. ¿Qué modificación/pasos serían necesarios para cambiar este puerto a 33306 por ejemplo? Importante: No realices los cambios. Solo indica los pasos que harías.**
 
-**El procés de mysqld escolta al port 3306. Quina modificació/passos caldrien fer per canviar 
-aquest port a 33306 per exemple? Important: No realitzis els canvis. Només indica els 
-passos que faries.
-
-- Primer de tot deshabilitariem el **"mysqld"
+- Primero deshabilitaríamos el **"mysqld"**.
 
 ![port1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/port2.1.png)
 
-- Obrim l'arxiu **"my.cnf"
+- Abrimos el archivo **"my.cnf"**.
 
 ![port2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/port2.3.png)
-
-- Ens portarà al següent fitxer on abaix del tot tindrem que posar **"port=3306"** en el cas que no estigui el **"port=3306"** com ha sigut el meu cas, en el cas que si aparegui posat el **"port=3306"** només hi haurà que cambiar-lo
-
-![port3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/port2.2.png)
-
-
-**Un cop finalitzada la instal·lació i veure que funciona, mostra el resultat de la comanda: (ps -ef | grep mysql)
-
-![p3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%201/Imatges/pregunta3.png)
-
 
 
 

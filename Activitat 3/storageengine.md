@@ -1,14 +1,12 @@
-# STORAGE ENGINES
+# 🗂️ Storage Engines
 
-## Exercicis:
-
-## - Exercici 1
+## - Ejercicio 1
 
 ### 1.1
 
-**Indica quins són els motors d’emmagatzematge que pots utilitzar (quins estan actius)? Mostra al comanda utilitzada i el resultat d’aquesta.**
+**Indica cuáles son los storage engines que puedes utilizar (cuáles están activos)? Muestra el comando utilizado y el resultado de este.**
 
-- Els motors d'emmagatzematge que estan actius son tots els següents menys el **FEDERATED**, per saber-los hi ha que posar la següent comanda:
+- Los storage engines que están activos son todos los siguientes menos el **FEDERATED**, para saberlos hay que poner el siguiente comando:
 
 ![1.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.1.png)
 
@@ -16,141 +14,130 @@
 
 ### 1.2
 
-**Com puc saber quin és el motor d’emmagatzematge per defecte. Mostra com canviar aquest
-paràmetre de tal manera que les noves taules que creem a la BD per defecte utilitzin el motor
-MyISAM?**
-- Com podem veure en la primera imatge anterior, veiem que el motor d'emmagatzematge per defecte és **InnoDB**.
+**¿Cómo puedo saber cuál es el storage engine por defecto. Muestra cómo cambiar este parámetro de tal manera que las nuevas tablas que creemos en la BD por defecto utilicen el motor MyISAM?**
 
-- Per canviar el motor d'emmagatzematge per defecte a MyISAM posem el següent:
+- Como podemos ver en la primera imagen anterior, vemos que el storage engine por defecto es **InnoDB**.
+
+- Para cambiar el storage engine por defecto a MyISAM ponemos lo siguiente:
 
 ![1.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.2.png)
 
 ### 1.3
 
-**Com podem saber quin és el motor d'emmagatzematge per defecte?**
+**¿Cómo podemos saber cuál es el storage engine por defecto?**
 
-- Amb el que em fet al exercici **1.1**.
+- Con lo que hice en el ejercicio **1.1**.
 
 ### 1.4
 
-**Explica els passos per instal·lar i activar l'ENGINE MyRocks. MyRocks és un motor d'emmagatzematge per MySQL basat en RocksDB (SGBD incrustat de tipus clau-valor). Aquest tipus d’emmagatzematge està optimitzat per ser molt eficient en les escriptures amb lectures
-acceptables.**
+**Explica los pasos para instalar y activar el ENGINE MyRocks. MyRocks es un storage engine para MySQL basado en RocksDB (SGBD incrustado de tipo clave-valor). Este tipo de almacenamiento está optimizado para ser muy eficiente en las escrituras con lecturas aceptables.**
 
-- Descarreguem el repositori:
+- Descargamos el repositorio:
 
 ![1.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.4.png)
 
-- Activem el MyRocks:
+- Activamos MyRocks:
 
 ![1.4 (2)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.4%20(2).png)
 
-- Llavors com podem comprovar en la següent imatge ja el tenim llest:
+- Entonces como podemos comprobar en la siguiente imagen ya lo tenemos listo:
 
 ![1.4 (3)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/1.4%20(3).png)
 
+## - Ejercicio 2
 
-## - Exercici 2
-
-**Documenta i posa exemple de com utilitzar ENGINE CSV.**
+**Documenta y pon ejemplo de cómo utilizar ENGINE CSV.**
 
 ![2.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/2.1.png)
 
 ![2.1 (2)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/2.1%20(2).png)
 
+## - Ejercicio 3
 
-## - Exercici 3
-
-**Desactiva l’opció que ve per defecte de innodb_file_per_table**
+**Desactiva la opción que viene por defecto de innodb_file_per_table**
 
 ![4.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.1.png)
 
-- Y reiniciem el mysql posant: **service mysql restart**
+- Y reiniciamos el mysql poniendo: **service mysql restart**
 
-**Quins són els permisos i l'usuari i grup de la carpeta que conté el directori de dades (datadir**
+**¿Cuáles son los permisos y el usuario y grupo de la carpeta que contiene el directorio de datos (datadir)?**
 
 ![4.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.2.png)
 
-**Mostra quina és la mida del tablespace de sistema (System Tablespace). Per què té aquesta 
-mida inicial?**
+**Muestra cuál es el tamaño del tablespace de sistema (System Tablespace). ¿Por qué tiene este tamaño inicial?**
 
 ![4.3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.3.png)
 
-**Importa la BD Sakila com a taules InnoDB (https://dev.mysql.com/doc/index-other.html)**
+**Importa la BD Sakila como tablas InnoDB (https://dev.mysql.com/doc/index-other.html)**
 
-- Primer descarreguem l'arxiu mitjançant web:
+- Primero descargamos el archivo mediante web:
 
-![4.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%202/Imatges/5.png)
+![4.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/5.png)
 
-- Després extraiem el contingut:
+- Después extraemos el contenido:
 
 ![4.4(2)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.4.png)
 
-- Després creem la estructura de la base de dades:
+- Después creamos la estructura de la base de datos:
 
 ![4.4(3)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.4(2).png)
 
 ![4.4(4)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.4(3).png)
 
-- Com podem veure ja la tenim:
+- Como podemos ver ya la tenemos:
 
 ![4.4(5)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.4(4).png)
 
-**Quin/quins són els fitxers de dades? A on es troben i quina és la seva mida?**
+**¿Cuál/cuáles son los archivos de datos? ¿Dónde se encuentran y cuál es su tamaño?**
 
 ![4.5](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.5.png)
 
-**Canvia la configuració del MySQL per:**
-- **Canviar la localització del directori de dades a /hd-mysql/**
+**Cambia la configuración del MySQL para:**
+- **Cambiar la localización del directorio de datos a /hd-mysql/**
 
-- Creem la carpeta
+- Creamos la carpeta
 
 ![4.6.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.6.1.png)
 
-- Dins del fitxer **my.cnf** posem els parametres innodb_data_home_dir | innodb_data_file_path | innodb_log_group_home_dir y li asignem la nova localització incloent el datadir
+- Dentro del archivo **my.cnf** ponemos los parámetros innodb_data_home_dir | innodb_data_file_path | innodb_log_group_home_dir y le asignamos la nueva localización incluyendo el datadir
 
 ![4.6.1(2)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.6.1(2).png)
 
 ![4.6.1(3)](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/4.6.1(3).png)
 
+## - Ejercicio 4
 
-## - Exercici 4
+**Crea un tablespace llamado 'ts1' situado en /discs-mysql/disc1/ y coloca las tablas actor, address y category de la BD Sakila.**
 
-**Crea un tablespace anomenat 'ts1' situat a /discs-mysql/disc1/ i col·loca les taules 
-actor, address i category de la BD Sakila.**
-
-- Creem la tablespace **ts1**
+- Creamos la tablespace **ts1**
 
 ![6.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.2.png)
 
-- Asignem a les taules **actor**, **address** i **category** la tablespace **ts1**
+- Asignamos a las tablas **actor**, **address** y **category** la tablespace **ts1**
 
 ![6.2](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.4.png)
 
-**Crea un altre tablespace anomenat 'ts2' situat a /discs-mysql/disc2/ i col·loca-hi la 
-resta de taules.**
+**Crea otro tablespace llamado 'ts2' situado en /discs-mysql/disc2/ y colócalo en la resta de tablas.**
 
-
- - Creem la tablespace **ts2**
+- Creamos la tablespace **ts2**
 
 ![6.3](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.3.png)
 
-- Asignem a les taules **city**, **country**, **customer**, **film**, **inventory**, **language**, **payment**, **rental**, **staff** i **store** la tablespace **ts2**
-
+- Asignamos a las tablas **city**, **country**, **customer**, **film**, **inventory**, **language**, **payment**, **rental**, **staff** y **store** la tablespace **ts2**
 
 ![6.4](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.6.png)
 
-- (No he posat les de més perquè hi hauria moltes captures)
+- (No he puesto las de más porque habría muchas capturas)
 
-- Podem fer sentencies DML:
+- Podemos hacer sentencias DML:
 
 ![6.5](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.7.png)
 
 ![6.6](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/6.8.png)
 
+## - Ejercicio 5
 
-## - Exercici 5
-
-**Com podem comprovar (Innodb Log Checkpointing):**
+**¿Cómo podemos comprobar (Innodb Log Checkpointing):**
 
 ![7.1](https://github.com/JoelSola/Base-de-Dades/blob/main/Activitat%203/Imatges/7.1.png)
 
@@ -158,25 +145,17 @@ resta de taules.**
 
 **• LSN (Log Sequence Number)**
 
-- Podem veure que el Log Sequence Number es el primer que podem veure 27514124
+- Podemos ver que el Log Sequence Number es el primero que podemos ver 27514124
 
-**• L'últim LSN actualitzat a disc**
+**• El último LSN actualizado a disco**
 
-- Podem veure que l'ultim LSN actualitzat a disc es el mateix 27514124
+- Podemos ver que el último LSN actualizado a disco es el mismo 27514124
 
-**• Quin és l'últim LSN que se li ha fet Checkpoint**
+**• ¿Cuál es el último LSN que se le ha hecho Checkpoint?**
 
-- L'ultim LSN al que se li ha fet Checkpoint també ha sigut el 27514124
+- El último LSN al que se le ha hecho Checkpoint también ha sido el 27514124
 
-
-
-
-
-
-
-
-
-# Webgrafia
+# 📚 Webgrafía
 
 1
 
@@ -194,13 +173,13 @@ http://myrocks.io/docs/getting-started/
 
 https://www.percona.com/doc/percona-server/8.0/myrocks/install.html
 
-activitat 2
+actividad 2
 
 1
 
 https://dev.mysql.com/doc/refman/8.0/en/csv-storage-engine.html
 
-activitat 4
+actividad 4
 
 1
 
@@ -217,7 +196,7 @@ https://dev.mysql.com/doc/refman/8.0/en/innodb-init-startup-configuration.html
 
 4
 
-Canviar localització
+Cambiar localización
 
 https://www.digitalocean.com/community/tutorials/how-to-move-a-mysql-data-directory-to-a-new-location-on-ubuntu-16-04
 
